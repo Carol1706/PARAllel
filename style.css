@@ -1,0 +1,40 @@
+/* Estiliza a lista não ordenada dentro do elemento <nav> */
+nav ul {
+    display: flex; /* Usa Flexbox para alinhar itens em linha */
+    flex-direction: row; /* Alinha os itens na horizontal */
+    margin: 0; /* Remove a margem padrão */
+    padding: 0; /* Remove o preenchimento padrão */
+}
+
+/* Estiliza os itens da lista dentro do <nav> */
+nav ul li {
+    list-style: none; /* Remove os marcadores padrão da lista */
+    height: 125px; /* Define a altura dos itens da lista */
+    padding: 0 25px 0 0; /* Adiciona preenchimento à direita dos itens */
+}
+
+/* Estiliza o item da lista quando o mouse passa por cima */
+nav ul li:hover {
+    background: #444444; /* Altera o fundo para um cinza escuro quando o item é hoverizado */
+}
+
+/* Estiliza o contêiner <nav> */
+nav {
+    height: 125px; /* Define a altura do contêiner de navegação */
+    max-width: 1480px; /* Define a largura máxima do contêiner */
+    min-width: 1080px; /* Define a largura mínima do contêiner */
+    background-color: black; /* Define a cor de fundo como preto */
+}
+
+/* Estiliza o elemento com o ID #logo dentro do <nav> */
+nav #logo img {
+    height: 75px; /* Define a altura da imagem dentro do logo */
+    margin: 25px; /* Adiciona uma margem ao redor da imagem */
+    float: left; /* Faz a imagem flutuar para a esquerda */
+}
+
+/* Estiliza o elemento com o ID #main-menu dentro do <nav> */
+nav #main-menu {
+    float: right; /* Faz o menu principal flutuar para a direita */
+}
+
